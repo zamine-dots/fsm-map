@@ -1,0 +1,17 @@
+# Vercel installs dependencies and builds from the checked-in source and public assets.
+node_modules/
+dist/
+test-results/
+playwright-report/
+exports/
+*.log
+*.tsbuildinfo
+*.local
+satellite.png
+seed-planning.html
+.claude/
+.codex/
+.agents/
+.aws/
+.git/
+.vercel/

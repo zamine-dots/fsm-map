@@ -1,0 +1,8 @@
+{
+  "format": "fsm-room-locations",
+  "version": 1,
+  "campusId": "fsm-campus",
+  "coordinates": "local-metres",
+  "updatedAt": null,
+  "locations": []
+}

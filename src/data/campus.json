@@ -1,0 +1,2113 @@
+{
+  "schemaVersion": 1,
+  "id": "fsm-campus",
+  "name": "Faculté des Sciences de Monastir",
+  "timezone": "Africa/Tunis",
+  "locale": "fr-TN",
+  "coordinates": {
+    "origin": {
+      "lat": 35.7648,
+      "lng": 10.80535
+    },
+    "units": "metres",
+    "east": "+X",
+    "up": "+Y",
+    "north": "-Z"
+  },
+  "source": {
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "url": "https://www.openstreetmap.org/copyright",
+    "retrievedAt": "2026-10-02"
+  },
+  "corrections": [
+    {
+      "buildingId": "way/1203834931",
+      "description": "User identification: Amphis 1, 2, 3 face the front; Amphis 4, 5, 6 face the rear. Room outlines and entrance positions come from OpenStreetMap.",
+      "recordedAt": "2026-10-02"
+    }
+  ],
+  "notes": [
+    "Catalogue de navigation initialisé à partir du modèle existant. Les codes courts (INFO, LC1, AMPHI, etc.) et les numéros de bâtiment servent de repères dans l’application ; leur caractère officiel n’est pas confirmé.",
+    "Les espaces cartographiés ne sont pas des cours. Le catalogue de cours reste vide tant que les données réelles ne sont pas renseignées.",
+    "Entrées rattachées uniquement par un sommet OSM partagé avec un bâtiment ou par la correction documentée des Amphis 1–6. Les autres points restent non attribués.",
+    "Aucun accès, horaire d’ouverture ou itinéraire piéton n’a été vérifié sur place. Le graphe de marche reste vide jusqu’à la phase de routage.",
+    "Les positions sont celles du modèle existant, sans calibration GPS sur place. La coordonnée verticale 0.28 est le niveau visuel du sol du modèle, pas une altitude géographique."
+  ],
+  "buildings": [
+    {
+      "id": "relation/3375365",
+      "name": "Département de Physique 2",
+      "shortName": "Physique 2",
+      "shortCode": "PHY2",
+      "aliases": [
+        "B01",
+        "Bâtiment 01"
+      ],
+      "nameSource": "osm",
+      "category": "department",
+      "modelNodeName": "building_relation_3375365",
+      "lat": 35.76492333,
+      "lng": 10.80648527,
+      "position": {
+        "x": 102.546,
+        "y": 0.28,
+        "z": -13.7286
+      },
+      "height": 7,
+      "heightEstimated": true,
+      "footprintArea": 1502.22,
+      "floors": 2,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/2577587546",
+          "name": "Entrée principale",
+          "lat": 35.7647096,
+          "lng": 10.8063356,
+          "position": {
+            "x": 89.0269,
+            "y": 0.28,
+            "z": 10.0633
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/2577587572",
+          "name": "Entrée principale",
+          "lat": 35.764943,
+          "lng": 10.806189,
+          "position": {
+            "x": 75.7849,
+            "y": 0.28,
+            "z": -15.9188
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "relation/3375366",
+      "name": "Locaux Communs 3",
+      "shortName": "LC 3",
+      "shortCode": "LC3",
+      "aliases": [
+        "B02",
+        "Bâtiment 02",
+        "LC3"
+      ],
+      "nameSource": "osm",
+      "category": "teaching",
+      "modelNodeName": "building_relation_3375366",
+      "lat": 35.76602013,
+      "lng": 10.80569547,
+      "position": {
+        "x": 31.2058,
+        "y": 0.28,
+        "z": -135.8254
+      },
+      "height": 7,
+      "heightEstimated": true,
+      "footprintArea": 1367.79,
+      "floors": 2,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11153141421",
+          "name": "Entrée cartographiée",
+          "lat": 35.7659321,
+          "lng": 10.8054908,
+          "position": {
+            "x": 12.7181,
+            "y": 0.28,
+            "z": -126.0254
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11153141427",
+          "name": "Entrée cartographiée",
+          "lat": 35.7661127,
+          "lng": 10.8059096,
+          "position": {
+            "x": 50.5473,
+            "y": 0.28,
+            "z": -146.1298
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "relation/3375367",
+      "name": "Département de Chimie 2",
+      "shortName": "Chimie 2",
+      "shortCode": "CHI2",
+      "aliases": [
+        "B03",
+        "Bâtiment 03",
+        "Départment de Chimie 2"
+      ],
+      "nameSource": "osm",
+      "category": "department",
+      "modelNodeName": "building_relation_3375367",
+      "lat": 35.76543738,
+      "lng": 10.80609712,
+      "position": {
+        "x": 67.4855,
+        "y": 0.28,
+        "z": -70.9528
+      },
+      "height": 7,
+      "heightEstimated": true,
+      "footprintArea": 1398.24,
+      "floors": 2,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/2577587635",
+          "name": "Entrée principale",
+          "lat": 35.765268,
+          "lng": 10.8059881,
+          "position": {
+            "x": 57.638,
+            "y": 0.28,
+            "z": -52.0978
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11153141418",
+          "name": "Entrée cartographiée",
+          "lat": 35.7653515,
+          "lng": 10.8059053,
+          "position": {
+            "x": 50.1589,
+            "y": 0.28,
+            "z": -61.393
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "relation/3375368",
+      "name": "Locaux Communs 1",
+      "shortName": "LC 1",
+      "shortCode": "LC1",
+      "aliases": [
+        "B04",
+        "Bâtiment 04",
+        "LC1"
+      ],
+      "nameSource": "osm",
+      "category": "teaching",
+      "modelNodeName": "building_relation_3375368",
+      "lat": 35.76429028,
+      "lng": 10.80641109,
+      "position": {
+        "x": 95.8459,
+        "y": 0.28,
+        "z": 56.7422
+      },
+      "height": 7,
+      "heightEstimated": true,
+      "footprintArea": 2147.92,
+      "floors": 2,
+      "floorsSource": "osm",
+      "landmark": "primary",
+      "entrances": [
+        {
+          "id": "node/2577587530",
+          "name": "Entrée principale",
+          "lat": 35.7645351,
+          "lng": 10.8064449,
+          "position": {
+            "x": 98.8997,
+            "y": 0.28,
+            "z": 29.4887
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11153141451",
+          "name": "Entrée principale",
+          "lat": 35.7641908,
+          "lng": 10.8061834,
+          "position": {
+            "x": 75.279,
+            "y": 0.28,
+            "z": 67.8161
+          },
+          "floors": [
+            0
+          ],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11153265775",
+          "name": "Entrée cartographiée",
+          "lat": 35.7644019,
+          "lng": 10.8061429,
+          "position": {
+            "x": 71.6208,
+            "y": 0.28,
+            "z": 44.3165
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [
+        {
+          "id": "way/1203124527",
+          "name": "Amphi D",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "way/1203127565",
+          "name": "Amphi A",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "way/1203127566",
+          "name": "Amphi B",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "way/1203127567",
+          "name": "Amphi C",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "way/1203828689",
+          "name": "101 LC",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203828690",
+          "name": "102 LC",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203828691",
+          "name": "103 LC",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203828692",
+          "name": "111 LC",
+          "type": "classroom",
+          "floors": [
+            1
+          ]
+        },
+        {
+          "id": "way/1203828693",
+          "name": "112 LC",
+          "type": "classroom",
+          "floors": [
+            1
+          ]
+        },
+        {
+          "id": "way/1203828694",
+          "name": "113 LC",
+          "type": "classroom",
+          "floors": [
+            1
+          ]
+        },
+        {
+          "id": "way/1203834923",
+          "name": "104 LC",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203834924",
+          "name": "114 LC",
+          "type": "classroom",
+          "floors": [
+            1
+          ]
+        },
+        {
+          "id": "way/1203834925",
+          "name": "107 LC",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203834926",
+          "name": "116 LC",
+          "type": "classroom",
+          "floors": [
+            1
+          ]
+        },
+        {
+          "id": "way/1203834927",
+          "name": "105 LC",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203834928",
+          "name": "117 LC",
+          "type": "classroom",
+          "floors": [
+            1
+          ]
+        },
+        {
+          "id": "way/1203834929",
+          "name": "106 LC",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203834930",
+          "name": "115 LC",
+          "type": "classroom",
+          "floors": [
+            1
+          ]
+        },
+        {
+          "id": "way/1203834932",
+          "name": "Sanitaires",
+          "type": "toilets",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1203834933",
+          "name": "Sanitaires",
+          "type": "toilets",
+          "floors": [
+            0
+          ]
+        }
+      ],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "relation/3375369",
+      "name": "Bâtiment 05",
+      "shortName": "Bâtiment 05",
+      "shortCode": "B05",
+      "aliases": [
+        "B05",
+        "Bâtiment 05"
+      ],
+      "nameSource": "map-index",
+      "category": "teaching",
+      "modelNodeName": "building_relation_3375369",
+      "lat": 35.76397608,
+      "lng": 10.80433105,
+      "position": {
+        "x": -92.0389,
+        "y": 0.28,
+        "z": 91.719
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 1986.63,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/2577587084",
+          "name": "Entrée principale",
+          "lat": 35.7640137,
+          "lng": 10.8042216,
+          "position": {
+            "x": -101.9257,
+            "y": 0.28,
+            "z": 87.5309
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11167038980",
+          "name": "Entrée cartographiée",
+          "lat": 35.7641851,
+          "lng": 10.8048033,
+          "position": {
+            "x": -49.3821,
+            "y": 0.28,
+            "z": 68.4507
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11167038984",
+          "name": "Entrée cartographiée",
+          "lat": 35.7641656,
+          "lng": 10.8045064,
+          "position": {
+            "x": -76.2004,
+            "y": 0.28,
+            "z": 70.6214
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11167044699",
+          "name": "Entrée cartographiée",
+          "lat": 35.7638012,
+          "lng": 10.8038131,
+          "position": {
+            "x": -138.8245,
+            "y": 0.28,
+            "z": 111.1864
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11167044700",
+          "name": "Entrée cartographiée",
+          "lat": 35.763741,
+          "lng": 10.8038513,
+          "position": {
+            "x": -135.374,
+            "y": 0.28,
+            "z": 117.8879
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [
+        {
+          "id": "way/1204916662",
+          "name": "Bib A",
+          "type": "library",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1204916663",
+          "name": "Bib B1",
+          "type": "library",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1204916664",
+          "name": "MRSRA 2",
+          "type": "classroom",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1204916665",
+          "name": "Bib B1",
+          "type": "library",
+          "floors": [
+            0
+          ]
+        },
+        {
+          "id": "way/1204916666",
+          "name": "Bibliothèque centrale",
+          "type": "library",
+          "floors": [
+            0
+          ]
+        }
+      ],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/126064593",
+      "name": "Département de Physique",
+      "shortName": "Physique",
+      "shortCode": "PHY",
+      "aliases": [
+        "B06",
+        "Bâtiment 06"
+      ],
+      "nameSource": "osm",
+      "category": "department",
+      "modelNodeName": "building_way_126064593",
+      "lat": 35.76483971,
+      "lng": 10.80551367,
+      "position": {
+        "x": 14.7843,
+        "y": 0.28,
+        "z": -4.4208
+      },
+      "height": 10.5,
+      "heightEstimated": true,
+      "footprintArea": 1156.5,
+      "floors": 3,
+      "floorsSource": "osm",
+      "landmark": "secondary",
+      "entrances": [
+        {
+          "id": "node/2577587583",
+          "name": "Entrée principale",
+          "lat": 35.7649971,
+          "lng": 10.8058524,
+          "position": {
+            "x": 45.3806,
+            "y": 0.28,
+            "z": -21.9412
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151802175",
+          "name": "Entrée cartographiée",
+          "lat": 35.7647038,
+          "lng": 10.8051674,
+          "position": {
+            "x": -16.4938,
+            "y": 0.28,
+            "z": 10.709
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/126064600",
+      "name": "Département de Mathématiques",
+      "shortName": "Mathématiques",
+      "shortCode": "MATH",
+      "aliases": [
+        "B07",
+        "Bâtiment 07"
+      ],
+      "nameSource": "osm",
+      "category": "department",
+      "modelNodeName": "building_way_126064600",
+      "lat": 35.76435556,
+      "lng": 10.80438462,
+      "position": {
+        "x": -87.2005,
+        "y": 0.28,
+        "z": 49.4753
+      },
+      "height": 10.5,
+      "heightEstimated": true,
+      "footprintArea": 808.59,
+      "floors": 3,
+      "floorsSource": "osm",
+      "landmark": "secondary",
+      "entrances": [
+        {
+          "id": "node/2577587408",
+          "name": "Entrée principale",
+          "lat": 35.7642639,
+          "lng": 10.8041352,
+          "position": {
+            "x": -109.73,
+            "y": 0.28,
+            "z": 59.6787
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151802170",
+          "name": "Entrée cartographiée",
+          "lat": 35.7644669,
+          "lng": 10.8046217,
+          "position": {
+            "x": -65.7856,
+            "y": 0.28,
+            "z": 37.0807
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/126064608",
+      "name": "Département de Chimie",
+      "shortName": "Chimie",
+      "shortCode": "CHI",
+      "aliases": [
+        "B08",
+        "Bâtiment 08",
+        "Départment de Chimie"
+      ],
+      "nameSource": "osm",
+      "category": "department",
+      "modelNodeName": "building_way_126064608",
+      "lat": 35.76509725,
+      "lng": 10.80532096,
+      "position": {
+        "x": -2.6231,
+        "y": 0.28,
+        "z": -33.0903
+      },
+      "height": 10.5,
+      "heightEstimated": true,
+      "footprintArea": 1119.2,
+      "floors": 3,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11151802174",
+          "name": "Entrée cartographiée",
+          "lat": 35.7649609,
+          "lng": 10.804995,
+          "position": {
+            "x": -32.0663,
+            "y": 0.28,
+            "z": -17.9114
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151802176",
+          "name": "Entrée cartographiée",
+          "lat": 35.76524,
+          "lng": 10.8056429,
+          "position": {
+            "x": 26.457,
+            "y": 0.28,
+            "z": -48.9808
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/126064613",
+      "name": "Administration",
+      "shortName": "Administration",
+      "shortCode": "ADMIN",
+      "aliases": [
+        "B09",
+        "Bâtiment 09"
+      ],
+      "nameSource": "osm",
+      "category": "service",
+      "modelNodeName": "building_way_126064613",
+      "lat": 35.76378475,
+      "lng": 10.80490949,
+      "position": {
+        "x": -39.79,
+        "y": 0.28,
+        "z": 113.0176
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 965.17,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11151802195",
+          "name": "Entrée cartographiée",
+          "lat": 35.7636474,
+          "lng": 10.8049662,
+          "position": {
+            "x": -34.6677,
+            "y": 0.28,
+            "z": 128.3074
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151802196",
+          "name": "Entrée cartographiée",
+          "lat": 35.7639295,
+          "lng": 10.8050928,
+          "position": {
+            "x": -23.2323,
+            "y": 0.28,
+            "z": 96.9041
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151802197",
+          "name": "Entrée cartographiée",
+          "lat": 35.763948,
+          "lng": 10.8049846,
+          "position": {
+            "x": -33.0057,
+            "y": 0.28,
+            "z": 94.8446
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/126064615",
+      "name": "Département d'Informatique",
+      "shortName": "Informatique",
+      "shortCode": "INFO",
+      "aliases": [
+        "B10",
+        "Bâtiment 10"
+      ],
+      "nameSource": "osm",
+      "category": "department",
+      "modelNodeName": "building_way_126064615",
+      "lat": 35.76414862,
+      "lng": 10.80387765,
+      "position": {
+        "x": -132.9939,
+        "y": 0.28,
+        "z": 72.5116
+      },
+      "height": 7,
+      "heightEstimated": true,
+      "footprintArea": 450.52,
+      "floors": 2,
+      "floorsSource": "osm",
+      "landmark": "secondary",
+      "entrances": [
+        {
+          "id": "node/2577587301",
+          "name": "Entrée principale",
+          "lat": 35.7642101,
+          "lng": 10.8040168,
+          "position": {
+            "x": -120.4248,
+            "y": 0.28,
+            "z": 65.6677
+          },
+          "floors": [],
+          "kind": "main",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/126064619",
+      "name": "Locaux Communs 2",
+      "shortName": "LC 2",
+      "shortCode": "LC2",
+      "aliases": [
+        "B11",
+        "Bâtiment 11",
+        "LC2"
+      ],
+      "nameSource": "osm",
+      "category": "teaching",
+      "modelNodeName": "building_way_126064619",
+      "lat": 35.76498165,
+      "lng": 10.80464026,
+      "position": {
+        "x": -64.1093,
+        "y": 0.28,
+        "z": -20.2208
+      },
+      "height": 10.5,
+      "heightEstimated": true,
+      "footprintArea": 733.07,
+      "floors": 3,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11151802172",
+          "name": "Entrée cartographiée",
+          "lat": 35.7648958,
+          "lng": 10.8044218,
+          "position": {
+            "x": -83.8421,
+            "y": 0.28,
+            "z": -10.6645
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151802173",
+          "name": "Entrée cartographiée",
+          "lat": 35.7650753,
+          "lng": 10.8048537,
+          "position": {
+            "x": -44.8296,
+            "y": 0.28,
+            "z": -30.6464
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/251554015",
+      "name": "Infirmerie",
+      "shortName": "Infirmerie",
+      "shortCode": "INFIR",
+      "aliases": [
+        "B12",
+        "Bâtiment 12"
+      ],
+      "nameSource": "osm",
+      "category": "service",
+      "modelNodeName": "building_way_251554015",
+      "lat": 35.76348353,
+      "lng": 10.8043963,
+      "position": {
+        "x": -86.1453,
+        "y": 0.28,
+        "z": 146.5491
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 289.47,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11167044650",
+          "name": "Entrée cartographiée",
+          "lat": 35.7635298,
+          "lng": 10.804501,
+          "position": {
+            "x": -76.6881,
+            "y": 0.28,
+            "z": 141.3987
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/251554017",
+      "name": "Bâtiment 13",
+      "shortName": "Bâtiment 13",
+      "shortCode": "B13",
+      "aliases": [
+        "B13",
+        "Bâtiment 13"
+      ],
+      "nameSource": "map-index",
+      "category": "service",
+      "modelNodeName": "building_way_251554017",
+      "lat": 35.7631412,
+      "lng": 10.80410053,
+      "position": {
+        "x": -112.8618,
+        "y": 0.28,
+        "z": 184.6577
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 50.62,
+      "floors": 1,
+      "floorsSource": "estimated",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/251554018",
+      "name": "Bâtiment 14",
+      "shortName": "Bâtiment 14",
+      "shortCode": "B14",
+      "aliases": [
+        "B14",
+        "Bâtiment 14"
+      ],
+      "nameSource": "map-index",
+      "category": "teaching",
+      "modelNodeName": "building_way_251554018",
+      "lat": 35.7645315,
+      "lng": 10.8055929,
+      "position": {
+        "x": 21.9406,
+        "y": 0.28,
+        "z": 29.8894
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 133.49,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/251554019",
+      "name": "Bâtiment 15",
+      "shortName": "Bâtiment 15",
+      "shortCode": "B15",
+      "aliases": [
+        "B15",
+        "Bâtiment 15"
+      ],
+      "nameSource": "map-index",
+      "category": "teaching",
+      "modelNodeName": "building_way_251554019",
+      "lat": 35.76461993,
+      "lng": 10.80579832,
+      "position": {
+        "x": 40.4954,
+        "y": 0.28,
+        "z": 20.0449
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 170.04,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/251554020",
+      "name": "Clubs universitaires",
+      "shortName": "Clubs universitaires",
+      "shortCode": "CLUBS",
+      "aliases": [
+        "B16",
+        "Bâtiment 16"
+      ],
+      "nameSource": "osm",
+      "category": "life",
+      "modelNodeName": "building_way_251554020",
+      "lat": 35.76372822,
+      "lng": 10.80574445,
+      "position": {
+        "x": 35.6294,
+        "y": 0.28,
+        "z": 119.311
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 283.55,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/251554021",
+      "name": "Bâtiment 17",
+      "shortName": "Bâtiment 17",
+      "shortCode": "B17",
+      "aliases": [
+        "B17",
+        "Bâtiment 17"
+      ],
+      "nameSource": "map-index",
+      "category": "teaching",
+      "modelNodeName": "building_way_251554021",
+      "lat": 35.76445708,
+      "lng": 10.80541636,
+      "position": {
+        "x": 5.9944,
+        "y": 0.28,
+        "z": 38.1735
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 133.48,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/251554022",
+      "name": "Service tirage",
+      "shortName": "Service tirage",
+      "shortCode": "TIRAGE",
+      "aliases": [
+        "B18",
+        "Bâtiment 18"
+      ],
+      "nameSource": "osm",
+      "category": "service",
+      "modelNodeName": "building_way_251554022",
+      "lat": 35.76351651,
+      "lng": 10.80522891,
+      "position": {
+        "x": -10.9379,
+        "y": 0.28,
+        "z": 142.8785
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 115.83,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11167152157",
+          "name": "Entrée cartographiée",
+          "lat": 35.7635703,
+          "lng": 10.8052546,
+          "position": {
+            "x": -8.6173,
+            "y": 0.28,
+            "z": 136.8902
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/251554023",
+      "name": "Bâtiment 19",
+      "shortName": "Bâtiment 19",
+      "shortCode": "B19",
+      "aliases": [
+        "B19",
+        "Bâtiment 19"
+      ],
+      "nameSource": "map-index",
+      "category": "service",
+      "modelNodeName": "building_way_251554023",
+      "lat": 35.76382217,
+      "lng": 10.80588679,
+      "position": {
+        "x": 48.4869,
+        "y": 0.28,
+        "z": 108.8521
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 116.59,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/251554024",
+      "name": "Bâtiment 20",
+      "shortName": "Bâtiment 20",
+      "shortCode": "B20",
+      "aliases": [
+        "B20",
+        "Bâtiment 20"
+      ],
+      "nameSource": "map-index",
+      "category": "service",
+      "modelNodeName": "building_way_251554024",
+      "lat": 35.76345515,
+      "lng": 10.8038661,
+      "position": {
+        "x": -134.0371,
+        "y": 0.28,
+        "z": 149.7087
+      },
+      "height": 10.5,
+      "heightEstimated": true,
+      "footprintArea": 338.14,
+      "floors": 3,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/251554025",
+      "name": "Magasin",
+      "shortName": "Magasin",
+      "shortCode": "MAGASIN",
+      "aliases": [
+        "B21",
+        "Bâtiment 21"
+      ],
+      "nameSource": "osm",
+      "category": "service",
+      "modelNodeName": "building_way_251554025",
+      "lat": 35.76579159,
+      "lng": 10.8061923,
+      "position": {
+        "x": 76.0832,
+        "y": 0.28,
+        "z": -110.3839
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 254.59,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/251554026",
+      "name": "Locaux Communs 4",
+      "shortName": "LC 4",
+      "shortCode": "LC4",
+      "aliases": [
+        "B22",
+        "Bâtiment 22",
+        "LC4"
+      ],
+      "nameSource": "osm",
+      "category": "teaching",
+      "modelNodeName": "building_way_251554026",
+      "lat": 35.76626824,
+      "lng": 10.80608465,
+      "position": {
+        "x": 66.3591,
+        "y": 0.28,
+        "z": -163.4446
+      },
+      "height": 10.5,
+      "heightEstimated": true,
+      "footprintArea": 428.48,
+      "floors": 3,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11153141424",
+          "name": "Entrée cartographiée",
+          "lat": 35.7661908,
+          "lng": 10.8060955,
+          "position": {
+            "x": 67.3392,
+            "y": 0.28,
+            "z": -154.8239
+          },
+          "floors": [],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/251554027",
+      "name": "Bâtiment 23",
+      "shortName": "Bâtiment 23",
+      "shortCode": "B23",
+      "aliases": [
+        "B23",
+        "Bâtiment 23"
+      ],
+      "nameSource": "map-index",
+      "category": "teaching",
+      "modelNodeName": "building_way_251554027",
+      "lat": 35.76564159,
+      "lng": 10.80574326,
+      "position": {
+        "x": 35.5227,
+        "y": 0.28,
+        "z": -93.6861
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 144.59,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/1202990233",
+      "name": "Salle des Thèses",
+      "shortName": "Salle des Thèses",
+      "shortCode": "THESES",
+      "aliases": [
+        "B24",
+        "Bâtiment 24"
+      ],
+      "nameSource": "osm",
+      "category": "teaching",
+      "modelNodeName": "building_way_1202990233",
+      "lat": 35.76356487,
+      "lng": 10.804108,
+      "position": {
+        "x": -112.187,
+        "y": 0.28,
+        "z": 137.4948
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 155.61,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11167044674",
+          "name": "Entrée cartographiée",
+          "lat": 35.7635576,
+          "lng": 10.8040138,
+          "position": {
+            "x": -120.6958,
+            "y": 0.28,
+            "z": 138.304
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/1202990234",
+      "name": "Salle des Mastères",
+      "shortName": "Salle des Mastères",
+      "shortCode": "MAST",
+      "aliases": [
+        "B25",
+        "Bâtiment 25"
+      ],
+      "nameSource": "osm",
+      "category": "teaching",
+      "modelNodeName": "building_way_1202990234",
+      "lat": 35.76366017,
+      "lng": 10.80403923,
+      "position": {
+        "x": -118.3984,
+        "y": 0.28,
+        "z": 126.8859
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 128.71,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [
+        {
+          "id": "node/11167044672",
+          "name": "Entrée cartographiée",
+          "lat": 35.7636754,
+          "lng": 10.8039778,
+          "position": {
+            "x": -123.9476,
+            "y": 0.28,
+            "z": 125.1905
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11167044673",
+          "name": "Entrée cartographiée",
+          "lat": 35.7635982,
+          "lng": 10.8039891,
+          "position": {
+            "x": -122.9268,
+            "y": 0.28,
+            "z": 133.7844
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "osm-outline",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [],
+      "classes": [],
+      "notes": []
+    },
+    {
+      "id": "way/1202990235",
+      "name": "Bâtiment 26",
+      "shortName": "Bâtiment 26",
+      "shortCode": "B26",
+      "aliases": [
+        "B26",
+        "Bâtiment 26"
+      ],
+      "nameSource": "map-index",
+      "category": "service",
+      "modelNodeName": "building_way_1202990235",
+      "lat": 35.76372482,
+      "lng": 10.80404517,
+      "position": {
+        "x": -117.8618,
+        "y": 0.28,
+        "z": 119.6891
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 34.77,
+      "floors": 1,
+      "floorsSource": "osm",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    },
+    {
+      "id": "way/1203834931",
+      "name": "Amphithéâtres 1–6",
+      "shortName": "Amphis 1–6",
+      "shortCode": "AMPHI",
+      "aliases": [
+        "B27",
+        "Bâtiment 27",
+        "Amphis 1 à 6",
+        "Amphis 1-6"
+      ],
+      "nameSource": "user-correction",
+      "category": "teaching",
+      "modelNodeName": "building_way_1203834931",
+      "lat": 35.76464688,
+      "lng": 10.80485944,
+      "position": {
+        "x": -44.311,
+        "y": 0.28,
+        "z": 17.045
+      },
+      "height": 7,
+      "heightEstimated": true,
+      "footprintArea": 964.29,
+      "floors": 2,
+      "floorsSource": "mapped-rooms",
+      "landmark": "primary",
+      "entrances": [
+        {
+          "id": "node/11151934115",
+          "name": "Entrée Amphi 3",
+          "lat": 35.7644816,
+          "lng": 10.8047365,
+          "position": {
+            "x": -55.416,
+            "y": 0.28,
+            "z": 35.4443
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "user-correction",
+          "side": "front",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151934116",
+          "name": "Entrée Amphi 2",
+          "lat": 35.7645326,
+          "lng": 10.8048581,
+          "position": {
+            "x": -44.4322,
+            "y": 0.28,
+            "z": 29.767
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "user-correction",
+          "side": "front",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151934117",
+          "name": "Entrée Amphi 1",
+          "lat": 35.7645898,
+          "lng": 10.8049955,
+          "position": {
+            "x": -32.0211,
+            "y": 0.28,
+            "z": 23.3995
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "user-correction",
+          "side": "front",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151934119",
+          "name": "Entrée Amphi 6",
+          "lat": 35.7648172,
+          "lng": 10.8049924,
+          "position": {
+            "x": -32.3012,
+            "y": 0.28,
+            "z": -1.9147
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "user-correction",
+          "side": "rear",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151934120",
+          "name": "Entrée Amphi 5",
+          "lat": 35.7647599,
+          "lng": 10.8048578,
+          "position": {
+            "x": -44.4593,
+            "y": 0.28,
+            "z": 4.4639
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "user-correction",
+          "side": "rear",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        },
+        {
+          "id": "node/11151934121",
+          "name": "Entrée Amphi 4",
+          "lat": 35.7647033,
+          "lng": 10.804723,
+          "position": {
+            "x": -56.6354,
+            "y": 0.28,
+            "z": 10.7646
+          },
+          "floors": [
+            0
+          ],
+          "kind": "entrance",
+          "association": "user-correction",
+          "side": "rear",
+          "access": "unknown",
+          "wheelchair": "unknown",
+          "verified": false
+        }
+      ],
+      "rooms": [
+        {
+          "id": "way/620055879",
+          "name": "Amphi 1",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ],
+          "side": "front",
+          "entranceId": "node/11151934117"
+        },
+        {
+          "id": "way/620055880",
+          "name": "Amphi 2",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ],
+          "side": "front",
+          "entranceId": "node/11151934116"
+        },
+        {
+          "id": "way/620055881",
+          "name": "Amphi 3",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ],
+          "side": "front",
+          "entranceId": "node/11151934115"
+        },
+        {
+          "id": "way/620055882",
+          "name": "Amphi 4",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ],
+          "side": "rear",
+          "entranceId": "node/11151934121"
+        },
+        {
+          "id": "way/620055883",
+          "name": "Amphi 5",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ],
+          "side": "rear",
+          "entranceId": "node/11151934120"
+        },
+        {
+          "id": "way/620055884",
+          "name": "Amphi 6",
+          "type": "amphitheatre",
+          "floors": [
+            0,
+            1
+          ],
+          "side": "rear",
+          "entranceId": "node/11151934119"
+        }
+      ],
+      "classes": [],
+      "notes": [
+        "Identification fournie par l’utilisateur : Bâtiment 27, Amphis 1–3 sur la face avant et 4–6 sur la face arrière. La hauteur de 7 m est estimée à partir des niveaux 0 et 1 des salles ; l’emprise au sol est inchangée."
+      ]
+    },
+    {
+      "id": "way/1204140843",
+      "name": "Bâtiment 28",
+      "shortName": "Bâtiment 28",
+      "shortCode": "B28",
+      "aliases": [
+        "B28",
+        "Bâtiment 28"
+      ],
+      "nameSource": "map-index",
+      "category": "service",
+      "modelNodeName": "building_way_1204140843",
+      "lat": 35.76466226,
+      "lng": 10.80593208,
+      "position": {
+        "x": 52.5779,
+        "y": 0.28,
+        "z": 15.3337
+      },
+      "height": 3.5,
+      "heightEstimated": true,
+      "footprintArea": 148.84,
+      "floors": 1,
+      "floorsSource": "estimated",
+      "landmark": null,
+      "entrances": [],
+      "rooms": [],
+      "classes": [],
+      "notes": [
+        "Le nom officiel de ce bâtiment reste à confirmer. Le numéro est un repère de cette carte."
+      ]
+    }
+  ],
+  "unassignedEntrances": [
+    {
+      "id": "node/11151934118",
+      "name": "Entrée secondaire",
+      "lat": 35.7647192,
+      "lng": 10.8050818,
+      "position": {
+        "x": -24.2259,
+        "y": 0.28,
+        "z": 8.9947
+      },
+      "floors": [
+        0
+      ],
+      "kind": "secondary",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11158163360",
+      "name": "Entrée cartographiée",
+      "lat": 35.7642859,
+      "lng": 10.8061874,
+      "position": {
+        "x": 75.6403,
+        "y": 0.28,
+        "z": 57.2296
+      },
+      "floors": [
+        0
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11158163362",
+      "name": "Entrée cartographiée",
+      "lat": 35.764137,
+      "lng": 10.8062913,
+      "position": {
+        "x": 85.0254,
+        "y": 0.28,
+        "z": 73.8052
+      },
+      "floors": [
+        0
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11158163365",
+      "name": "Entrée cartographiée",
+      "lat": 35.7642872,
+      "lng": 10.8066378,
+      "position": {
+        "x": 116.3239,
+        "y": 0.28,
+        "z": 57.0849
+      },
+      "floors": [
+        0
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11158163367",
+      "name": "Entrée cartographiée",
+      "lat": 35.764435,
+      "lng": 10.8065336,
+      "position": {
+        "x": 106.9118,
+        "y": 0.28,
+        "z": 40.6318
+      },
+      "floors": [
+        0
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11160595639",
+      "name": "Entrée cartographiée",
+      "lat": 35.7641235,
+      "lng": 10.8063764,
+      "position": {
+        "x": 92.7123,
+        "y": 0.28,
+        "z": 75.308
+      },
+      "floors": [
+        0,
+        1
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11160595640",
+      "name": "Entrée cartographiée",
+      "lat": 35.7642008,
+      "lng": 10.8065517,
+      "position": {
+        "x": 108.5467,
+        "y": 0.28,
+        "z": 66.7029
+      },
+      "floors": [
+        0,
+        1
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11160595641",
+      "name": "Entrée cartographiée",
+      "lat": 35.7641623,
+      "lng": 10.8064645,
+      "position": {
+        "x": 100.6701,
+        "y": 0.28,
+        "z": 70.9888
+      },
+      "floors": [
+        0,
+        1
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11160595644",
+      "name": "Entrée cartographiée",
+      "lat": 35.7643592,
+      "lng": 10.8062213,
+      "position": {
+        "x": 78.7024,
+        "y": 0.28,
+        "z": 49.0699
+      },
+      "floors": [
+        0,
+        1
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11160595645",
+      "name": "Entrée cartographiée",
+      "lat": 35.7643966,
+      "lng": 10.8063061,
+      "position": {
+        "x": 86.3622,
+        "y": 0.28,
+        "z": 44.9065
+      },
+      "floors": [
+        0,
+        1
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11160595646",
+      "name": "Entrée cartographiée",
+      "lat": 35.7644347,
+      "lng": 10.8063921,
+      "position": {
+        "x": 94.1304,
+        "y": 0.28,
+        "z": 40.6652
+      },
+      "floors": [
+        0,
+        1
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    },
+    {
+      "id": "node/11167038975",
+      "name": "Entrée cartographiée",
+      "lat": 35.7641377,
+      "lng": 10.8045526,
+      "position": {
+        "x": -72.0272,
+        "y": 0.28,
+        "z": 73.7272
+      },
+      "floors": [
+        0
+      ],
+      "kind": "entrance",
+      "association": "unassigned",
+      "access": "unknown",
+      "wheelchair": "unknown",
+      "verified": false
+    }
+  ],
+  "walkNodes": [],
+  "walkEdges": []
+}

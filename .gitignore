@@ -1,0 +1,14 @@
+node_modules
+dist/
+*.tsbuildinfo
+.DS_Store
+*.local
+*.log
+test-results/
+playwright-report/
+.claude/
+.codex/
+.agents/
+.aws/
+.vercel/
+seed-planning.html

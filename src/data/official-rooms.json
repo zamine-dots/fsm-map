@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Faculté des Sciences de Monastir — Emplois du temps 2026–2027, semestre 1",
+    "url": "https://www.fsm.rnu.tn/fra/articles/5528/emplois-du-temps---2026-2027---semestre-1",
+    "timetableUrl": "https://fsm.edupage.org/timetable/view.php?num=20&class=*234",
+    "retrievedAt": "2026-10-23",
+    "license": "Not specified by the publisher"
+  },
+  "notes": [
+    "Published classroom names and abbreviations only. All published building identifiers are empty; no floor, footprint, entrance or geographic coordinate is supplied.",
+    "Names and abbreviations are trimmed; source identifiers and published spelling are preserved. The room directory is independent of the mapped OpenStreetMap geometry."
+  ],
+  "rooms": [
+    {
+      "id": "-1",
+      "name": "101",
+      "short": "101"
+    },
+    {
+      "id": "-3",
+      "name": "102",
+      "short": "102"
+    },
+    {
+      "id": "-5",
+      "name": "103",
+      "short": "103"
+    },
+    {
+      "id": "-7",
+      "name": "105",
+      "short": "105"
+    },
+    {
+      "id": "-8",
+      "name": "106",
+      "short": "106"
+    },
+    {
+      "id": "-14",
+      "name": "114",
+      "short": "114"
+    },
+    {
+      "id": "-19",
+      "name": "11Ch",
+      "short": "11Ch"
+    },
+    {
+      "id": "-13",
+      "name": "113CH",
+      "short": "113CH"
+    },
+    {
+      "id": "-37",
+      "name": "215-CH",
+      "short": "215-CH"
+    },
+    {
+      "id": "-68",
+      "name": "M.CH",
+      "short": "M.CH"
+    },
+    {
+      "id": "-2",
+      "name": "101-M",
+      "short": "101-M"
+    },
+    {
+      "id": "-4",
+      "name": "102-M",
+      "short": "102-M"
+    },
+    {
+      "id": "-18",
+      "name": "117-M",
+      "short": "117-M"
+    },
+    {
+      "id": "-21",
+      "name": "201-M",
+      "short": "201-M"
+    },
+    {
+      "id": "-23",
+      "name": "202-M",
+      "short": "202-M"
+    },
+    {
+      "id": "-25",
+      "name": "203-M",
+      "short": "203-M"
+    },
+    {
+      "id": "-31",
+      "name": "212-M",
+      "short": "212-M"
+    },
+    {
+      "id": "-33",
+      "name": "213-M",
+      "short": "213-M"
+    },
+    {
+      "id": "-35",
+      "name": "214-M",
+      "short": "214-M"
+    },
+    {
+      "id": "-20",
+      "name": "201",
+      "short": "201"
+    },
+    {
+      "id": "-22",
+      "name": "202",
+      "short": "202"
+    },
+    {
+      "id": "-24",
+      "name": "203",
+      "short": "203"
+    },
+    {
+      "id": "-26",
+      "name": "204",
+      "short": "204"
+    },
+    {
+      "id": "-27",
+      "name": "205",
+      "short": "205"
+    },
+    {
+      "id": "-28",
+      "name": "206",
+      "short": "206"
+    },
+    {
+      "id": "-29",
+      "name": "211",
+      "short": "211"
+    },
+    {
+      "id": "-30",
+      "name": "212",
+      "short": "212"
+    },
+    {
+      "id": "-32",
+      "name": "213",
+      "short": "213"
+    },
+    {
+      "id": "-34",
+      "name": "214",
+      "short": "214"
+    },
+    {
+      "id": "-36",
+      "name": "215",
+      "short": "215"
+    },
+    {
+      "id": "-38",
+      "name": "216",
+      "short": "216"
+    },
+    {
+      "id": "-39",
+      "name": "217",
+      "short": "217"
+    },
+    {
+      "id": "-40",
+      "name": "218",
+      "short": "218"
+    },
+    {
+      "id": "-49",
+      "name": "A-2",
+      "short": "A-2"
+    },
+    {
+      "id": "-50",
+      "name": "A-3",
+      "short": "A-3"
+    },
+    {
+      "id": "-53",
+      "name": "A-6",
+      "short": "A-6"
+    },
+    {
+      "id": "-52",
+      "name": "A-5",
+      "short": "A-5"
+    },
+    {
+      "id": "-48",
+      "name": "A-1",
+      "short": "A-1"
+    },
+    {
+      "id": "-51",
+      "name": "A-4",
+      "short": "A-4"
+    },
+    {
+      "id": "-55",
+      "name": "A-B",
+      "short": "A-B"
+    },
+    {
+      "id": "-56",
+      "name": "A-C",
+      "short": "A-C"
+    },
+    {
+      "id": "-322",
+      "name": "BIB A3",
+      "short": "BIB A3"
+    },
+    {
+      "id": "-356",
+      "name": "BIB-B6",
+      "short": "BIB-B6"
+    },
+    {
+      "id": "-357",
+      "name": "BIB-A4",
+      "short": "BIB-A4"
+    },
+    {
+      "id": "-316",
+      "name": "Bib C2",
+      "short": "Bib C2"
+    },
+    {
+      "id": "-330",
+      "name": "BIB C3",
+      "short": "BIB C3"
+    },
+    {
+      "id": "-331",
+      "name": "Bib C4",
+      "short": "Bib C4"
+    },
+    {
+      "id": "-324",
+      "name": "BIB B1",
+      "short": "BIB B1"
+    },
+    {
+      "id": "-325",
+      "name": "BIB B2",
+      "short": "BIB B2"
+    },
+    {
+      "id": "-326",
+      "name": "BIB B3",
+      "short": "BIB B3"
+    },
+    {
+      "id": "-327",
+      "name": "BIB B4",
+      "short": "BIB B4"
+    },
+    {
+      "id": "-328",
+      "name": "BIB B5",
+      "short": "BIB B5"
+    },
+    {
+      "id": "-97",
+      "name": "SEM-MATHS",
+      "short": "SEM-MATHS"
+    },
+    {
+      "id": "-93",
+      "name": "S1-MATHS",
+      "short": "S1-MATHS"
+    },
+    {
+      "id": "-72",
+      "name": "TEMPUS-6",
+      "short": "TEMPUS-6"
+    },
+    {
+      "id": "-70",
+      "name": "S7-M",
+      "short": "S7-M"
+    },
+    {
+      "id": "-321",
+      "name": "BIB A1",
+      "short": "BIB A1"
+    },
+    {
+      "id": "-320",
+      "name": "BIB  C1",
+      "short": "BIB  C1"
+    },
+    {
+      "id": "-47",
+      "name": "409",
+      "short": "409"
+    },
+    {
+      "id": "-41",
+      "name": "312",
+      "short": "312"
+    },
+    {
+      "id": "-44",
+      "name": "406",
+      "short": "406"
+    },
+    {
+      "id": "-45",
+      "name": "407",
+      "short": "407"
+    },
+    {
+      "id": "-46",
+      "name": "408",
+      "short": "408"
+    },
+    {
+      "id": "-157",
+      "name": "INF-403",
+      "short": "INF-403"
+    },
+    {
+      "id": "-158",
+      "name": "INF-404",
+      "short": "INF-404"
+    },
+    {
+      "id": "-73",
+      "name": "INF.301",
+      "short": "INF.301"
+    },
+    {
+      "id": "-74",
+      "name": "INF.302",
+      "short": "INF.302"
+    },
+    {
+      "id": "-75",
+      "name": "INF.303",
+      "short": "INF.303"
+    },
+    {
+      "id": "-76",
+      "name": "INF.304",
+      "short": "INF.304"
+    },
+    {
+      "id": "-77",
+      "name": "INF.305",
+      "short": "INF.305"
+    },
+    {
+      "id": "-78",
+      "name": "INF.306",
+      "short": "INF.306"
+    },
+    {
+      "id": "-79",
+      "name": "INF.307",
+      "short": "INF.307"
+    },
+    {
+      "id": "-80",
+      "name": "INF.308",
+      "short": "INF.308"
+    },
+    {
+      "id": "-81",
+      "name": "INF.311",
+      "short": "INF.311"
+    },
+    {
+      "id": "-67",
+      "name": "M-PHYS",
+      "short": "M-PHYS"
+    },
+    {
+      "id": "-190",
+      "name": "102 CH I",
+      "short": "102 CH I"
+    },
+    {
+      "id": "-193",
+      "name": "202 CH I",
+      "short": "202 CH I"
+    },
+    {
+      "id": "-191",
+      "name": "112 CH I",
+      "short": "112 CH I"
+    },
+    {
+      "id": "-192",
+      "name": "201 CH I",
+      "short": "201 CH I"
+    },
+    {
+      "id": "-194",
+      "name": "214 CH I",
+      "short": "214 CHI"
+    },
+    {
+      "id": "-189",
+      "name": "101 CH I",
+      "short": "101 CH I"
+    },
+    {
+      "id": "-188",
+      "name": "114 PHYSIQUE",
+      "short": "114 PHYSIQUE"
+    },
+    {
+      "id": "-255",
+      "name": "203 PHYSIQUE",
+      "short": "203 PHYSIQUE"
+    },
+    {
+      "id": "-199",
+      "name": "113 PHYSIQUE",
+      "short": "113 PHYSIQUE"
+    },
+    {
+      "id": "-203",
+      "name": "204 PHYSIQUE",
+      "short": "204 PHYSIQUE"
+    },
+    {
+      "id": "-200",
+      "name": "314 Physique",
+      "short": "314 Physique"
+    },
+    {
+      "id": "-182",
+      "name": "LABO INOR2 CHII",
+      "short": "LABO INOR2 CHII"
+    },
+    {
+      "id": "-181",
+      "name": "LABO INOR1 CHII",
+      "short": "LABO INOR1 CHII"
+    },
+    {
+      "id": "-179",
+      "name": "LABO ORG1 CH II",
+      "short": "LABO ORG1 CH II"
+    },
+    {
+      "id": "-177",
+      "name": "LABO 15 CH I",
+      "short": "LABO 15 CH I"
+    },
+    {
+      "id": "-180",
+      "name": "LABO ORG2 CH II",
+      "short": "LABO ORG2 CH II"
+    },
+    {
+      "id": "-175",
+      "name": "LABO 1 CH I",
+      "short": "LABO 1 CH I"
+    },
+    {
+      "id": "-176",
+      "name": "LABO 2 CH I",
+      "short": "LABO 2 CH I"
+    },
+    {
+      "id": "-113",
+      "name": "DEP CHIM3",
+      "short": "DEP CHIM3"
+    },
+    {
+      "id": "-110",
+      "name": "DEP CHIM",
+      "short": "DEP CHIM"
+    },
+    {
+      "id": "-170",
+      "name": "SALLE 1 CH II",
+      "short": "SALLE 1 CH II"
+    },
+    {
+      "id": "-169",
+      "name": "SALLE 2 CH II",
+      "short": "SALLE 2 CH II"
+    },
+    {
+      "id": "-168",
+      "name": "SALLE 3 CH II",
+      "short": "SALLE 3 CH II"
+    },
+    {
+      "id": "-167",
+      "name": "SALLE 4 CH II",
+      "short": "SALLE 4 CH II"
+    },
+    {
+      "id": "-171",
+      "name": "SALLE 5 CH II",
+      "short": "SALLE 5 CH II"
+    },
+    {
+      "id": "-178",
+      "name": "SALLE 6 CH II",
+      "short": "SALLE 6 CH II"
+    },
+    {
+      "id": "-119",
+      "name": "M-PHYS-DEP",
+      "short": "M-PHYS-DEP"
+    },
+    {
+      "id": "-83",
+      "name": "LP204",
+      "short": "LP204"
+    },
+    {
+      "id": "-207",
+      "name": "SALLE A1 PHYSIQUE",
+      "short": "SALLE A1 PHYSIQUE"
+    },
+    {
+      "id": "-208",
+      "name": "SALLE A2 PHYSIQUE",
+      "short": "SALLE A2 PHYSIQUE"
+    },
+    {
+      "id": "-209",
+      "name": "SALLE A3 PHYSIQUE",
+      "short": "SALLE A3 PHYSIQUE"
+    },
+    {
+      "id": "-186",
+      "name": "SALLE AUTO",
+      "short": "SALLE AUTO"
+    },
+    {
+      "id": "-221",
+      "name": "SALLE 313 PHY",
+      "short": "SALLE 313 PHY"
+    },
+    {
+      "id": "-212",
+      "name": "SALLE B1 PHYSIQUE",
+      "short": "SALLE B1 PHYSIQUE"
+    },
+    {
+      "id": "-211",
+      "name": "SALLE B2 PHYSIQUE",
+      "short": "SALLE B2 PHYSIQUE"
+    },
+    {
+      "id": "-210",
+      "name": "SALLE B3 PHYSIQUE",
+      "short": "SALLE B3 PHYSIQUE"
+    },
+    {
+      "id": "-213",
+      "name": "SALLE C1 PHYSIQUE",
+      "short": "SALLE C1 PHYSIQUE"
+    },
+    {
+      "id": "-214",
+      "name": "SALLE C2 PHYSIQUE",
+      "short": "SALLE C2 PHYSIQUE"
+    },
+    {
+      "id": "-215",
+      "name": "SALLE C3 PHYSIQUE",
+      "short": "SALLE C3 PHYSIQUE"
+    },
+    {
+      "id": "-144",
+      "name": "SALLE CAPTEUR",
+      "short": "SALLE CAPTEUR"
+    },
+    {
+      "id": "-218",
+      "name": "SALLE D1 PHYSIQUE",
+      "short": "SALLE D1 PHYSIQUE"
+    },
+    {
+      "id": "-217",
+      "name": "SALLE D2 PHYSIQUE",
+      "short": "SALLE D2 PHYSIQUE"
+    },
+    {
+      "id": "-216",
+      "name": "SALLE D3 PHYSIQUE",
+      "short": "SALLE D3 PHYSIQUE"
+    },
+    {
+      "id": "-219",
+      "name": "SALLE ELECTRONIQUE ANALOGIQUE",
+      "short": "SALLE ELECTRONIQUE ANALOGIQUE"
+    },
+    {
+      "id": "*145",
+      "name": "SALLE Electronique Analogique2",
+      "short": "SALLE  Electronique Analogique2ctronique Analogique2"
+    },
+    {
+      "id": "-360",
+      "name": "SALLE MASTER RECHER2ème",
+      "short": "S.M.RECH.2"
+    },
+    {
+      "id": "-291",
+      "name": "SALLE ONDE PHYS1",
+      "short": "S.ONDE PHYS1"
+    },
+    {
+      "id": "-351",
+      "name": "SALLE PAM PHYSIQUE 1",
+      "short": "SALLE PAM PHYSIQUE 1"
+    },
+    {
+      "id": "-201",
+      "name": "SALLE PCB",
+      "short": "SALLE PCB"
+    },
+    {
+      "id": "-136",
+      "name": "SALLE PUISSANCE",
+      "short": "SALLE PUISSANCE"
+    },
+    {
+      "id": "-204",
+      "name": "SALLE SEMI CONDUCTEUR",
+      "short": "SALLE SEMI CONDUCTEUR"
+    },
+    {
+      "id": "-145",
+      "name": "SALLE SIGNAL",
+      "short": "SALLE SIGNAL"
+    },
+    {
+      "id": "-205",
+      "name": "Salle: Electronique Numérique",
+      "short": "Salle: Electronique Numérique"
+    },
+    {
+      "id": "-348",
+      "name": "S.MF",
+      "short": "S.MF"
+    },
+    {
+      "id": "-352",
+      "name": "S.R.CHIMIE",
+      "short": "S.R.CHIMIE"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "name": "Faculté des Sciences de Monastir",
+  "model": "model.glb",
+  "sourceHash": "198176ad30b98bbd3a5347f1d8a9527e511d69ea4eb8015ff4d04dd03bd92cae",
+  "modelHash": "45848f16d26777cc169e62a5f0df9cdf162facf448e28ff241d907eca8d585ae",
+  "origin": {
+    "latitude": 35.7648,
+    "longitude": 10.80535
+  },
+  "units": "metres",
+  "north": "-Z",
+  "center": {
+    "x": 8.641162774654413,
+    "z": 22.881544393198446
+  },
+  "bounds": {
+    "minX": -183.06697245960262,
+    "maxX": 173.98904739311965,
+    "minZ": -190.3683319996469,
+    "maxZ": 190.21248400019857
+  },
+  "counts": {
+    "buildings": 28,
+    "rooms": 31
+  },
+  "source": {
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "url": "https://www.openstreetmap.org/copyright",
+    "retrievedAt": "2026-10-02"
+  },
+  "sizes": {
+    "archivedBytes": 2012480,
+    "sourceBytes": 2115632,
+    "optimizedBytes": 662232,
+    "materialsBefore": 246,
+    "materialsAfter": 32
+  },
+  "landmarks": [
+    {
+      "id": "way/1203834931",
+      "modelNodeName": "building_way_1203834931",
+      "name": "Amphis 1–6",
+      "x": -44.31097678443888,
+      "z": 17.04496304535694,
+      "height": 7
+    },
+    {
+      "id": "way/126064615",
+      "modelNodeName": "building_way_126064615",
+      "name": "Informatique",
+      "x": -132.99394891261622,
+      "z": 72.51164358736504,
+      "height": 7
+    },
+    {
+      "id": "way/126064600",
+      "modelNodeName": "building_way_126064600",
+      "name": "Mathématiques",
+      "x": -87.20046012262861,
+      "z": 49.475269962360635,
+      "height": 10.5
+    },
+    {
+      "id": "way/126064593",
+      "modelNodeName": "building_way_126064593",
+      "name": "Physique",
+      "x": 14.784327955912577,
+      "z": -4.420838608478888,
+      "height": 10.5
+    },
+    {
+      "id": "relation/3375368",
+      "modelNodeName": "building_relation_3375368",
+      "name": "LC 1",
+      "x": 95.84591605195934,
+      "z": 56.74222251203136,
+      "height": 7
+    }
+  ],
+  "referencePoints": [
+    {
+      "id": "node/7228004560",
+      "name": "Cour Rouge",
+      "modelNodeName": "landmark_cour_rouge",
+      "position": [
+        -27.992527145343992,
+        53.400203999959786
+      ],
+      "color": "#d9a392",
+      "geometry": "courtyard-surface",
+      "outlineApproximate": true
+    }
+  ]
+}

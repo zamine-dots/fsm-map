@@ -1,0 +1,52 @@
+{
+  "name": "fsm-campus-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3000",
+    "model:build": "node --import tsx scripts/build-model.ts",
+    "model:check": "node --import tsx scripts/build-model.ts --check",
+    "campus:check": "node --import tsx scripts/check-campus.ts",
+    "map:check": "node --import tsx scripts/check-map.ts",
+    "map:check:browser": "node scripts/check-map-browser.mjs",
+    "schedule:check": "node --import tsx scripts/check-schedule.ts",
+    "schedule:check:browser": "node scripts/check-schedule-browser.mjs",
+    "navigation:check": "node --import tsx scripts/check-navigation.ts",
+    "navigation:check:browser": "node scripts/check-navigation-browser.mjs",
+    "check:browser": "npm run navigation:check:browser && npm run map:check:browser && npm run schedule:check:browser",
+    "build": "npm run model:check && npm run campus:check && npm run map:check && npm run schedule:check && npm run navigation:check && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 3000",
+    "import:osm": "node scripts/import-osm.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "9.122.0",
+    "@react-three/fiber": "8.18.0",
+    "lucide-react": "0.468.0",
+    "meshoptimizer": "1.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "7.18.4",
+    "three": "0.170.0",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "^22.18.0",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@types/three": "0.168.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "playwright": "1.63.0",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.20.6",
+    "typescript": "5.9.3",
+    "vite": "8.3.1"
+  }
+}
