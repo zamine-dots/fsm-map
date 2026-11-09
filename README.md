@@ -2,6 +2,29 @@
 
 An interactive campus navigator for the **Faculté des Sciences de Monastir**, built with Vite, React, TypeScript, React Three Fiber/Drei, Zustand and Tailwind CSS. The interface is in French.
 
+[![CI](https://github.com/zamine-dots/fsm-map/actions/workflows/ci.yml/badge.svg)](https://github.com/zamine-dots/fsm-map/actions/workflows/ci.yml)
+
+[Open the live campus map](https://fsm-map.vercel.app)
+
+![FSM Navigator showing the campus map, classroom search, and Planning navigation](docs/campus-preview.jpg)
+
+Search classrooms, explore a 3D campus, choose a suggested walking route, and keep a personal timetable in your browser. The project brings together geographic data, accessible search, local persistence, and responsive interfaces.
+
+## Quick start
+
+Use Node.js 24 LTS (`.nvmrc` is included).
+
+```bash
+npm ci
+npm run dev
+```
+
+`npm run build` validates the model, campus catalog, map, timetable, and navigation logic, then runs TypeScript and builds the static site. GitHub Actions runs that same build plus a dependency audit. Browser checks are available separately through `npm run check:browser`.
+
+The map is an independent student project. Walking routes are suggestions from mapped data, and outdoor GPS accuracy still needs testing on campus.
+
+## Current behavior
+
 **The hosted map is readonly.** Visitors can view classrooms, use GPS, choose a route starting point and maintain their own Planning. Adding, moving, deleting or importing room pins and correcting buildings is available only through `npm run dev` on a loopback address. Production builds, Vercel deployments and `npm run preview` hide these controls and ignore old browser-local map edits.
 
 ## Add room locations locally and publish them
